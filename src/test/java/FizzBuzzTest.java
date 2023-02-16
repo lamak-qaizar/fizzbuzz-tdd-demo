@@ -15,4 +15,9 @@ public class FizzBuzzTest {
         assert new FizzBuzz().on(6).equals("Fizz");
         assert new FizzBuzz().on(9).equals("Fizz");
     }
+
+    @Test
+    public void shouldReturnBuzzWhenMultipleOf5() {
+        assert new FizzBuzz().on(5).equals("Buzz");
+    }
 }
