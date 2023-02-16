@@ -1,6 +1,6 @@
 public class FizzBuzz {
     public String on(int number) {
-        if (number == 15 || number == 30 || number == 45) {
+        if (number % 3 == 0 && number % 5 == 0) {
             return "FizzBuzz";
         }
         if (number % 3 == 0) {
