@@ -22,4 +22,9 @@ public class FizzBuzzTest {
         assert new FizzBuzz().on(10).equals("Buzz");
         assert new FizzBuzz().on(20).equals("Buzz");
     }
+
+    @Test
+    public void shouldReturnFizzBuzzWhenMultipleOf3and5() {
+        assert new FizzBuzz().on(15).equals("FizzBuzz");
+    }
 }
