@@ -1,5 +1,5 @@
 public class FizzBuzz {
     public String on(int number) {
-        return "";
+        return "1";
     }
 }
