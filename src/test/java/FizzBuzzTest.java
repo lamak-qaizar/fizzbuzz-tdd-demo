@@ -8,4 +8,9 @@ public class FizzBuzzTest {
         assert new FizzBuzz().on(2).equals("2");
         assert new FizzBuzz().on(4).equals("4");
     }
+
+    @Test
+    public void shouldReturnFizzWhenMultipleOf3() {
+        assert new FizzBuzz().on(3).equals("Fizz");
+    }
 }
