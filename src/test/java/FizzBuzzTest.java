@@ -4,6 +4,6 @@ public class FizzBuzzTest {
 
     @Test
     public void test() {
-        assert true;
+        assert new FizzBuzz().on(1) == 1;
     }
 }
