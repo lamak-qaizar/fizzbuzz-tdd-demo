@@ -1,3 +1,5 @@
+This repo was used as a live demo of TDD. View commit history to see each step of the TDD process.
+
 # Fizz buzz
 
 Fizz buzz is a group word game for children to teach them about division. Players take turns to count incrementally and say out loud:
